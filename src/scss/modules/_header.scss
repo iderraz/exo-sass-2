@@ -61,13 +61,13 @@ header{
 }
 /*-------------------media:320-700--------------------*/
 
-/*-------------------media:701-1024--------------------*/
-@media (min-width:701px) and (max-width:1024px){
+/*-------------------media:701-1000--------------------*/
+@media (min-width:701px) and (max-width:1000px){
+
     header{
         height: 50px;
         width: 100%;
-        margin-top: -20px;
-    }
+        
         
         nav{
             height: 100%;
@@ -83,9 +83,48 @@ header{
             .div2{
                 display: flex;
                 justify-content: space-evenly;
-                width: 40%;
-                color: grey;        
+                width: 25%;
+                color: grey;
+                margin-top: 10px;
+                       
             }
         }
-    }
+}
+}
 /*-------------------media:701-1024--------------------*/
+
+/*-------------------media:1750-2000--------------------*/
+
+@media (min-width:1750px) and (max-width:2000px){
+    header{
+        height: 150px;
+        width: 100%;
+        margin-top: -20px;
+
+        
+        nav{
+            height: 100%;
+            width: 100%;
+            background-color: #061134;
+            display: flex;
+            justify-content: space-evenly;
+
+            
+            h1{
+                color: white;
+                font-size: 300%;
+            }
+
+            .div2{
+                display: flex;
+                justify-content: space-evenly;
+                width: 30%;
+                color: grey;
+                margin-top: 5px;
+                font-size: 300%;
+                       
+            }
+        }
+}
+}
+/*-------------------media:1750-2000--------------------*/

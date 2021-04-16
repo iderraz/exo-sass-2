@@ -9,6 +9,7 @@ footer{
     justify-content: center;
 }
 
+/*-------------------media:320-700--------------------*/
 @media (min-width:320px) and (max-width:700px){
     footer{
         height: 100px;
@@ -22,5 +23,41 @@ footer{
         margin-top: 11%;
         
     }
+}
+/*-------------------media:320-700--------------------*/
+
+/*-------------------media:701-1000--------------------*/
+@media (min-width:701px) and (max-width:1000px){
+    footer{
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/*-------------------media:701-1000--------------------*/
+
+
+/*-------------------media:1750-2000--------------------*/
+@media (min-width:1750px) and (max-width:2000px){
+    footer{
+        height: 120px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 }
+/*-------------------media:1750-2000--------------------*/
+
+
+
+
