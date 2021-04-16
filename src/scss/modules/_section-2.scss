@@ -26,6 +26,7 @@
             background-image: url(../../../public/img/01.jpg);
             border-radius: 50%;
             margin-top: 1%;
+            background-size: contain;
         }
     }
 
@@ -43,6 +44,7 @@
             background-image: url(../../../public/img/02.jpg);
             border-radius: 50%;
             margin-top: 3%;
+            background-size: contain;
         }
         
         div:last-of-type{
@@ -82,7 +84,8 @@
             width: 20%;
             background-image: url(../../../public/img/03.jpg);
             border-radius: 50%;
-            margin-top: 3%
+            margin-top: 3%;
+            background-size: contain;
         }
     }
     
