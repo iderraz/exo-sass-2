@@ -21,11 +21,57 @@ header nav h1 {
 header nav .div2 {
   display: flex;
   justify-content: space-evenly;
-  width: 10%;
+  width: 15%;
   color: grey;
   margin-top: 10px;
 }
 
+/*-------------------media:320-700--------------------*/
+@media (min-width: 320px) and (max-width: 700px) {
+  header nav {
+    height: 100%;
+    width: 100%;
+    background-color: #061134;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  header nav h1 {
+    color: white;
+  }
+  header nav .div2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    color: grey;
+  }
+}
+/*-------------------media:320-700--------------------*/
+/*-------------------media:701-1024--------------------*/
+@media (min-width: 701px) and (max-width: 1024px) {
+  header {
+    height: 50px;
+    width: 100%;
+    margin-top: -20px;
+  }
+
+  nav {
+    height: 100%;
+    width: 100%;
+    background-color: #061134;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  nav h1 {
+    color: white;
+  }
+  nav .div2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    color: grey;
+  }
+}
+/*-------------------media:701-1024--------------------*/
 #section-1 {
   height: 300px;
   width: 100%;
@@ -40,16 +86,41 @@ header nav .div2 {
   width: 150px;
   background-color: #CA2861;
   color: white;
-  border-radius: 25%;
 }
 #section-1 h1 {
   color: white;
-  margin-top: 3%;
+  margin-top: 4%;
 }
 #section-1 h2 {
   color: white;
 }
 
+@media (min-width: 320px) and (max-width: 700px) {
+  #section-1 {
+    height: 220px;
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #section-1 input {
+    height: 30px;
+    width: 90px;
+    background-color: #CA2861;
+    color: white;
+  }
+  #section-1 h1 {
+    color: white;
+    margin-top: 8%;
+    font-size: medium;
+  }
+  #section-1 h2 {
+    color: white;
+    font-size: medium;
+  }
+}
 #section-2 {
   height: 990px;
   width: 100%;
@@ -126,6 +197,83 @@ header nav .div2 {
   background-size: contain;
 }
 
+@media (min-width: 320px) and (max-width: 700px) {
+  #section-2 {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #section-2 #partie-1 {
+    height: 175px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #section-2 #partie-1 div:first-of-type {
+    height: 250px;
+    width: 15%;
+    font-size: 55%;
+    margin-right: 5%;
+  }
+  #section-2 #partie-1 div:first-of-type h3 {
+    margin-top: 35%;
+  }
+  #section-2 #partie-1 div:last-of-type {
+    height: 100px;
+    width: 20%;
+    background-image: url(../../../public/img/01.jpg);
+    border-radius: 75%;
+    margin-top: 1%;
+    background-size: contain;
+  }
+  #section-2 #partie-2 {
+    height: 175px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #section-2 #partie-2 div:first-of-type {
+    height: 100px;
+    width: 20%;
+    background-image: url(../../../public/img/02.jpg);
+    border-radius: 75%;
+    margin-top: 1%;
+    background-size: contain;
+  }
+  #section-2 #partie-2 div:last-of-type {
+    height: 250px;
+    width: 15%;
+    font-size: 55%;
+    margin-left: 5%;
+  }
+  #section-2 #partie-2 div:last-of-type h3 {
+    margin-top: 35%;
+  }
+  #section-2 #partie-3 {
+    height: 175px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #section-2 #partie-3 div:first-of-type {
+    height: 250px;
+    width: 15%;
+    font-size: 55%;
+    margin-right: 5%;
+  }
+  #section-2 #partie-3 div:first-of-type h3 {
+    margin-top: 35%;
+  }
+  #section-2 #partie-3 div:last-of-type {
+    height: 100px;
+    width: 20%;
+    background-image: url(../../../public/img/03.jpg);
+    border-radius: 75%;
+    margin-top: 3%;
+    background-size: contain;
+  }
+}
 footer {
   height: 100px;
   width: 100%;
@@ -135,6 +283,20 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+  footer {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
